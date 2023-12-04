@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Recipes Share</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Share Recipes</h1>
-  <p>Share your recipes with the world!</p>
-  <div id="recipeList">
-
-  </div>
-  <div id="recipeForm">
-    <h2 style="margin-top: 5rem;"> Add Recipe </h2>
-    <form id="recipeForm">
-      <label for="recipeName">Recipe Name</label>
-      <input type="text" name="recipeName" id="recipeName">
-      <label for="recipeIngredients">Recipe Ingredients</label>
-      <textarea name="recipeIngredients" id="recipeIngredients" cols="30" rows="10"></textarea>
-      <label for="recipeInstructions">Recipe Instructions</label>
-      <textarea name="recipeInstructions" id="recipeInstructions" cols="30" rows="10"></textarea>
-      <button type="button" onclick="addRecipe()">Add Recipe</button>
-    </form>
-  </div>
-  <script src="functionality.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipes Share</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Share Recipes</h1>
+    <p>Share your recipes with the world!</p>
+    <div id="recipeList"></div>
+    <div id="recipeForm">
+      <h2 style="margin-top: 5rem">Add Recipe</h2>
+      <form id="recipeForm">
+        <label for="recipeName">Recipe Name</label>
+        <input type="text" name="recipeName" id="recipeName" />
+        <label for="recipeIngredients">Recipe Ingredients</label>
+        <textarea
+          placeholder="Enter comma seperated Recipe Ingredients"
+          name="recipeIngredients"
+          id="recipeIngredients"
+          cols="30"
+          rows="10"
+          ></textarea>
+          <label for="recipeInstructions">Recipe Instructions</label>
+          <textarea
+          placeholder="Enter comma seperated Recipe Instructions"
+          name="recipeInstructions"
+          id="recipeInstructions"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button type="button" onclick="addRecipe()">Add Recipe</button>
+      </form>
+    </div>
+    <script src="functionality.js"></script>
+  </body>
 </html>
