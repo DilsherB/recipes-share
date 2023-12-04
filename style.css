@@ -1,0 +1,55 @@
+*,
+** {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #f23621;
+  --font-color: #4cf96c;
+  --button-bg-color: #1c90f6;
+  --button-color: #3b1d71;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background-color);
+  color: var(--font-color);
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#recipeForm form  > * {
+  width: 25rem;
+}
+
+#recipeForm form label {
+  margin-top: 1rem;
+}
+
+#recipeForm form input,
+#recipeForm form textarea {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.3rem;
+  resize: none;
+}
+
+#recipeForm form button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--button-bg-color);
+  color: var(--button-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
