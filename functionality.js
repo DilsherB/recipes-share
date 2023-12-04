@@ -30,7 +30,7 @@ const displayRecipes = () => {
       .map((item) => `<li>${item.trim()}</li>`)
       .join("");
     card.innerHTML += `
-    <div class="card" style="width: 15rem;">
+    <div class="card" style="width: 16rem;">
       <div class="card-body">
         <h5 class="card-title">${recipe.name}</h5>
         <h6 class="card-subtitle">Ingredients:</h6>
