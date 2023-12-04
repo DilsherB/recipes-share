@@ -5,9 +5,9 @@ const recipes = [
   instructions: "Fry chicken in oil for 10 min, Add (Chopped Onion, Zeera and Achar Gosht Masala), Cook for 20 min"},
   {
     name: "Chicken Karahi",
-    ingredients: "Chicken 1/2 kg, Karahi Masala, Chopped Onion 1/4 kg, Cooking Oil 1/8 kg",
+    ingredients: "Chicken 1/2 kg, Karahi Masala, Chopped Onion 1/4 kg, Cooking Oil 1/8 kg, Zeera",
     instructions: "Fry chicken in oil for 10 min, Add (Chopped Onion, Karahi Masala), Cook for 20 min"
-  }
+  },
 ];
 
 const displayRecipes = () => {
